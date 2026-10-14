@@ -1,0 +1,18 @@
+CLASSIFICATION MODEL RESULTS
+===================================
+Algorithm: Logistic Regression
+Features: Age, Department
+Target: Performance
+Category rule: Marks >= 85 is High; otherwise Low
+Dataset rows used: 7
+Cross-validation folds: 2
+Cross-validated accuracy: 57.14%
+
+              precision    recall  f1-score   support
+
+        High       0.75      0.60      0.67         5
+         Low       0.33      0.50      0.40         2
+
+    accuracy                           0.57         7
+   macro avg       0.54      0.55      0.53         7
+weighted avg       0.63      0.57      0.59         7
